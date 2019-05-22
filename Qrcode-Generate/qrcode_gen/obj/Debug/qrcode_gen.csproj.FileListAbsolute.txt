@@ -1,0 +1,37 @@
+D:\C#\qrcode-gen\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.exe.config
+D:\C#\qrcode-gen\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.exe
+D:\C#\qrcode-gen\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.pdb
+D:\C#\qrcode-gen\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.Properties.Resources.resources
+D:\C#\qrcode-gen\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.csproj.GenerateResource.Cache
+D:\C#\qrcode-gen\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.exe
+D:\C#\qrcode-gen\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.pdb
+D:\C#\qrcode-gen\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.Form1.resources
+D:\C#\qrcode-gen\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.csprojResolveAssemblyReference.cache
+D:\C#\print_test\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.exe.config
+D:\C#\print_test\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.exe
+D:\C#\print_test\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.pdb
+D:\C#\print_test\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.exe
+D:\C#\print_test\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.pdb
+D:\C#\print_test\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.csprojResolveAssemblyReference.cache
+D:\C#\print_test\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.Form1.resources
+D:\C#\print_test\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.Properties.Resources.resources
+D:\C#\print_test\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.csproj.GenerateResource.Cache
+D:\C#\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.exe.config
+D:\C#\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.exe
+D:\C#\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.pdb
+D:\C#\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.exe
+D:\C#\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.pdb
+D:\C#\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.csprojResolveAssemblyReference.cache
+D:\C#\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.Form1.resources
+D:\C#\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.Properties.Resources.resources
+D:\C#\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.csproj.GenerateResource.Cache
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.exe.config
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.exe
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.pdb
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.exe
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\bin\Debug\qrcode_gen.pdb
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.csprojResolveAssemblyReference.cache
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.Form1.resources
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.Properties.Resources.resources
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\obj\Debug\qrcode_gen.csproj.GenerateResource.Cache
+C:\Users\john_yeh\Documents\Visual Studio 2013\Projects\qrcode_gen\qrcode_gen\bin\Debug\WebKit.Interop.dll

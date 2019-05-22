@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Qrcode Gen</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="qrcode.min.js"></script>
+<script type="text/javascript" src="sha1.js"></script>
+<script type="text/javascript" src="user_define.js"></script>
+</head>
+<body>
+<div id="content"></div>
+<script type="text/javascript">
+	var HTML = "";
+	var mac_arr = define_mac_arr;
+	var qrcode_arr = [];
+	var key_arr = [];
+	var qrcode = [];
+	var row_num = 5;
+
+	function JavaScriptLoadQRcode() {
+            return 10;
+        }
+
+	function makeCode (i) {		
+		qrcode[i].makeCode(qrcode_arr[i]);
+	}
+	
+	HTML += "<table width=400 border=1><tbody>\n";	
+	for (i = 0; i < mac_arr.length; i++) {
+			if(i%row_num == 0){
+				HTML += "<tr>\n";
+			}
+	    HTML += "<td>\n";
+	    HTML += "<span style='width:50px; display: inline-block;'>MAC :</span>\n";
+	    HTML += "<input type='text' id='mac_st_cont" + i + "' style='width:85px;font-size:12px' value=''><br>\n";
+	    HTML += "</td><td style='border=1px solid;border-radius:10px;'>\n";
+HTML += "<div id='qrcode" + i + "' style='width:90px;height:90px;margin-top:6px;margin-left:6px;margin-right:6px;margin-bottom:6px'></div>\n";
+	    HTML += "</td>\n";
+			if((i+1)%row_num == 0){
+				HTML += "</tr>\n";
+			}
+	}
+	HTML += "<tbody></table><br>\n";
+
+	document.getElementById("content").innerHTML = HTML;
+	for (i = 0; i < mac_arr.length; i++) {
+	    if (mac_arr[i].length == 12) {
+	        var shaObj = new jsSHA(mac_arr[i].slice(6, 12).toUpperCase(), "TEXT");
+	        var hash = shaObj.getHash("SHA-1", "HEX");
+	        var hmac = shaObj.getHMAC("1234", "TEXT", "SHA-1", "HEX");
+	        key_arr[i] = hmac.slice(0, 20).toUpperCase();
+	        qrcode_arr[i] = "rmc://" + mac_arr[i] + "/" + key_arr[i];
+					qrcode[i] = new QRCode(document.getElementById("qrcode"+i), {
+						width : 90,
+						height : 90 
+					});	
+	        document.getElementById("mac_st_cont" + i).value = mac_arr[i];
+	        makeCode(i);
+	    }
+	}
+</script>
+</body>
+</html>
